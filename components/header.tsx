@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function Header() {
   return (
-    <header className='fixed w-full h-14 bg-slate-300'>
+    <header className='fixed w-full h-14 bg-slate-300 z-10'>
       <div className='h-full mx-10 flex justify-between items-center'>
         <div className='h-full flex items-center'>
           <Link href='/' className='h-full flex items-center'>
