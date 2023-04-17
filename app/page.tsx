@@ -1,6 +1,5 @@
 import path from "path";
 import fs from "fs/promises";
-import Carousel from "@/components/carousel";
 import TCarousel from "@/components/tCarousel";
 
 export const metadata = {
